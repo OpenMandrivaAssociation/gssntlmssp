@@ -37,6 +37,7 @@ for NTLMSSP.
 
 %configure \
     --with-wbclient \
+    --without-zlib \
     --disable-static
 
 %make_build all
