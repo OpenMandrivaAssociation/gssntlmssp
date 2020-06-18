@@ -9,6 +9,7 @@ Group:		System/Libraries
 License:	LGPLv3+
 URL:		https://github.com/gssapi/gss-ntlmssp/
 Source0:	https://github.com/gssapi/gss-ntlmssp/releases/download/v%{version}/%{name}-%{version}.tar.gz
+Patch0:		gssntlmssp-0.9.0-fix-zlib.patch
 BuildRequires:	xsltproc
 BuildRequires:	libxml2
 BuildRequires:	docbook-style-xsl
@@ -41,7 +42,6 @@ for NTLMSSP.
 
 %configure \
     --with-wbclient \
-    --without-zlib \
     --disable-static
 
 %make_build all
