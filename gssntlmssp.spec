@@ -16,6 +16,7 @@ BuildRequires:	pkgconfig(gssrpc)
 BuildRequires:	pkgconfig(libunistring)
 BuildRequires:	pkgconfig(openssl)
 BuildRequires:	pkgconfig(wbclient)
+BuildRequires:	pkgconfig(zlib)
 
 %description
 A GSSAPI Mechanism that implements NTLMSSP.
