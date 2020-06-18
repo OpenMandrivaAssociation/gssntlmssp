@@ -1,3 +1,5 @@
+%define _disable_lto 1
+
 Summary:	GSSAPI NTLMSSP Mechanism
 Name:		gssntlmssp
 Version:	0.9.0
@@ -38,7 +40,6 @@ for NTLMSSP.
 
 %configure \
     --with-wbclient \
-    --without-zlib \
     --disable-static
 
 %make_build all
