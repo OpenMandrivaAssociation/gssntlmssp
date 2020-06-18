@@ -9,6 +9,7 @@ Source0:	https://github.com/gssapi/gss-ntlmssp/releases/download/v%{version}/%{n
 BuildRequires:	xsltproc
 BuildRequires:	libxml2
 BuildRequires:	docbook-style-xsl
+BuildRequires:	docbook-dtd44-xml
 BuildRequires:	doxygen
 BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(krb5) >= 1.11.2
