@@ -33,9 +33,9 @@ for NTLMSSP.
 
 %prep
 %autosetup -p1
+sed -i -e 's#\/lib#\/%{_lib}#g' external/ax_check_zlib.m4
 
 %build
-
 %configure \
     --with-wbclient \
     --with-zlib="/%{_lib}" \
