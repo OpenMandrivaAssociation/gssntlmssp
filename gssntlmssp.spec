@@ -10,7 +10,7 @@ BuildRequires:	xsltproc
 BuildRequires:	libxml2
 BuildRequires:	docbook-style-xsl
 BuildRequires:	doxygen
-BuildRequires:	pkgconfig(gettext)
+BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(krb5) >= 1.11.2
 BuildRequires:	pkgconfig(gssrpc)
 BuildRequires:	pkgconfig(libunistring)
