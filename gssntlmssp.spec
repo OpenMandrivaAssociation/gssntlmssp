@@ -34,11 +34,10 @@ for NTLMSSP.
 %autosetup -p1
 
 %build
-autoreconf -fiv
+
 %configure \
     --with-wbclient \
-    --disable-static \
-    --disable-rpath
+    --disable-static
 
 %make_build all
 
