@@ -1,6 +1,6 @@
 Summary:	GSSAPI NTLMSSP Mechanism
 Name:		gssntlmssp
-Version:	0.9.0
+Version:	1.1.0
 Release:	1
 Group:		System/Libraries
 License:	LGPLv3+
