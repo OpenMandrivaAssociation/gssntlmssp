@@ -1,7 +1,7 @@
 Summary:	GSSAPI NTLMSSP Mechanism
 Name:		gssntlmssp
 Version:	1.3.1
-Release:	1
+Release:	2
 Group:		System/Libraries
 License:	LGPLv3+
 URL:		https://github.com/gssapi/gss-ntlmssp/
