@@ -6,6 +6,11 @@ Group:		System/Libraries
 License:	LGPLv3+
 URL:		https://github.com/gssapi/gss-ntlmssp/
 Source0:	https://github.com/gssapi/gss-ntlmssp/releases/download/v%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	xsltproc
 BuildRequires:	libxml2
 BuildRequires:	docbook-style-xsl
